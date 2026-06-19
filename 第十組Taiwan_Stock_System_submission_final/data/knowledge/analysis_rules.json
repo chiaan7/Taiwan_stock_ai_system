@@ -1,0 +1,50 @@
+[
+  {
+    "rule_id": "institution_buy_not_price_up",
+    "category": "籌碼限制",
+    "title": "法人買超不代表股價一定上漲",
+    "rule": "法人買超只能描述特定期間的資金方向，不能直接推論未來股價必然上漲。"
+  },
+  {
+    "rule_id": "institution_sell_not_price_down",
+    "category": "籌碼限制",
+    "title": "法人賣超不代表股價一定下跌",
+    "rule": "法人賣超可能來自調整部位或避險，不能直接推論未來股價必然下跌。"
+  },
+  {
+    "rule_id": "news_not_causality",
+    "category": "因果限制",
+    "title": "新聞與股價同時發生不等於直接因果",
+    "rule": "同期新聞可能是市場關注因素之一，但僅憑時間重疊無法確認新聞與股價具有直接因果關係。"
+  },
+  {
+    "rule_id": "ptt_sample_limit",
+    "category": "情緒限制",
+    "title": "PTT 情緒只代表取得文章",
+    "rule": "PTT 情緒只代表目前成功取得文章的討論傾向，不能代表全體投資人或整體市場意見。"
+  },
+  {
+    "rule_id": "date_alignment",
+    "category": "資料限制",
+    "title": "不同資料日期不可直接混合比較",
+    "rule": "股價、法人、新聞與 PTT 若資料日期不同，必須標示時間差異，不可直接視為同一事件結果。"
+  },
+  {
+    "rule_id": "insufficient_data",
+    "category": "資料限制",
+    "title": "資料不足不可自行補充結論",
+    "rule": "當檢索證據或結構化資料不足時，應明確說明限制，不可自行補充數字、事件或市場結論。"
+  },
+  {
+    "rule_id": "no_direct_advice",
+    "category": "安全規則",
+    "title": "不提供直接買賣建議",
+    "rule": "系統只整理市場資訊，不提供買進、賣出、加碼、減碼或持有等直接投資建議。"
+  },
+  {
+    "rule_id": "no_exact_prediction",
+    "category": "安全規則",
+    "title": "不預測確切未來股價",
+    "rule": "系統不得預測特定日期或區間的確切未來股價，也不得保證報酬。"
+  }
+]

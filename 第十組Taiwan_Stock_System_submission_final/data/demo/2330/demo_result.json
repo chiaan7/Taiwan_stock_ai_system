@@ -1,0 +1,52 @@
+{
+  "stock_id": "2330",
+  "stock_name": "台積電",
+  "news_keyword": "台積電",
+  "crawled_at": "2026-05-30T11:28:10",
+  "crawl_config": {
+    "price_range": "1mo",
+    "days": 7,
+    "news_source": "yahoo",
+    "yahoo_month_window": 1,
+    "chip_days": 10,
+    "news_limit": 15,
+    "ptt_pages": 20,
+    "ptt_content_search": true,
+    "yahoo_mode": "rss",
+    "yahoo_scroll_rounds": 20,
+    "max_content_chars": 6000,
+    "strict_dates": false
+  },
+  "snapshot": {
+    "stock_id": "2330",
+    "stock_name": "台積電",
+    "last_price": 2355.0,
+    "previous_close": 2295.0,
+    "change": 60.0,
+    "change_pct": 2.6143790849673203,
+    "volume": 86132863,
+    "source": "Yahoo Finance chart API"
+  },
+  "price_summary": {
+    "trend": "偏多",
+    "return_pct": 8.027522935779817,
+    "volatility": 2.1769437158169405
+  },
+  "sentiment_summary": {
+    "label": "中立",
+    "正向": 2,
+    "中立": 12,
+    "負向": 0
+  },
+  "errors": [],
+  "counts": {
+    "price_rows": 22,
+    "chip_rows": 10,
+    "news_items": 11,
+    "ptt_items": 3,
+    "rag_documents": 14,
+    "errors": 0,
+    "undated_news_items": 2,
+    "undated_ptt_items": 0
+  }
+}
